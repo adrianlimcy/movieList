@@ -70,3 +70,25 @@
         plugins: [htmlPlugin]
     }
 21. npm start
+22. npm install --save-dev webpack-dev-server\
+23. add line into package.json
+    "start": "webpack-dev-server --mode development --open",
+24. npm start
+    - server is live
+    - can be seen on localhost:8080
+25. mkdir src/containers
+26. cd src/containers
+27. touch List.js
+28. add code into List.js
+29. amend index.js in src/index.js
+30. mkdir src/components/Card
+31. touch src/components/Card/Card.js
+32. add in code for Card.js
+33. amend code for List.js
+34. mkdir assets
+35. touch assets/data.json
+36. copy assets and media from tutorial github page
+37. amend code for Card.js
+38. add constructor in List.js
+39. add async/await code in List.js to retrieve data
+40. 
