@@ -108,4 +108,4 @@
 49. touch .eslintrc.js
 50. add eslint-loader into webpack.config.js
 51. npm install --save prop-types
-52. 
+52. add Proptypes validation in Card.js
