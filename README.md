@@ -91,4 +91,21 @@
 37. amend code for Card.js
 38. add constructor in List.js
 39. add async/await code in List.js to retrieve data
-40. 
+40. npm install --save-dev bootstrap
+41. add code into index.js
+    import 'bootstrap/dist/css/bootstrap.min.css';
+42. npm install --save-dev css-loader style-loader
+43. add code into webpack.config.js
+    {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader']
+    }
+44. add bootstrap styling css into index.js
+45. add bootstrap styling css into List.js
+46. add bootstrap styling css into Card.js
+47. touch up css in index.js
+48. npm install --save-dev eslint eslint-loader eslint-plugin-react
+49. touch .eslintrc.js
+50. add eslint-loader into webpack.config.js
+51. npm install --save prop-types
+52. 
